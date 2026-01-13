@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Scorpio Classic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: black;">
+
+
+    <nav class="navbar navbar-dark bg-black">
+        <div class="container h-50">
+            <div class="row w-100 align-items-center">
+
+                <div class="col-4">
+                    <img src="./image/logo.webp" height="50">
+                </div>
+
+                <div style="font-size: 22px;" class="col-4 text-center text-white fw-semibold">
+                    SUVs
+                </div>
+
+                <div style="font-size: 20px;" class="col-4 text-end text-white">
+                    <span class="me-3 fw-semibold">TEST DRIVE</span>
+                    <i class="bi bi-person fs-5 me-2" role="button" data-bs-toggle="modal"
+                        data-bs-target="#loginModal"></i>
+                    <i class="bi bi-list fs-4" role="button" data-bs-toggle="offcanvas" data-bs-target="#menu"></i>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="container-fluid p-0 mt-3">
+        <div id="carCarousel" class="carousel slide carousel-fade h-75 " data-bs-ride="carousel">
+
+            <div class="carousel-inner h-100">
+
+                <div class="carousel-item active h-100">
+                    <img src="./image/img1.jpg" class="carousel-img img-fluid">
+                </div>
+
+                <div class="carousel-item h-100">
+                    <img src="./image/img2.jpg" class="carousel-img img-fluid">
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+        </div>
+    </section>
+
+    <div class="offcanvas offcanvas-end bg-black text-white" tabindex="-1" id="menu">
+
+        <div class="offcanvas-header">
+            <img src="./image/logo.webp" height="35">
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+        </div>
+
+        <div class="offcanvas-body px-4">
+
+            <ul class="list-unstyled fs-5 fw-semibold">
+                <li class="py-3 border-bottom d-flex justify-content-between">
+                    BUY <i class="bi bi-chevron-right"></i>
+                </li>
+                <li class="py-3 border-bottom d-flex justify-content-between">
+                    OWNER'S ZONE <i class="bi bi-chevron-right"></i>
+                </li>
+                <li class="py-3 border-bottom d-flex justify-content-between">
+                    ADVENTURE <i class="bi bi-chevron-right"></i>
+                </li>
+                <li class="py-3 border-bottom">
+                    LOCATE A DEALER
+                </li>
+                <li class="py-3">
+                    GLOBAL MARKETS
+                </li>
+            </ul>
+
+            <div class="d-flex justify-content-between align-items-center mt-5 pt-4 border-top">
+                <span>SWITCH THEME</span>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" checked>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal fade" id="loginModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-white rounded-4 p-4">
+
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h3 class="fw-bold">SIGN IN</h3>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+
+                <p class="text-secondary">
+                    Please enter your 10-digit mobile number to receive a verification OTP
+                </p>
+
+                <input type="text" class="form-control bg-dark text-white border-secondary mb-3"
+                    placeholder="Mobile Number">
+
+                <a href="#" class="text-white text-decoration-underline mb-4 d-inline-block">
+                    Use Email ID instead
+                </a>
+
+                <button class="btn btn-secondary w-100 rounded-pill py-2 mb-4">
+                    Request OTP
+                </button>
+
+                <hr class="border-secondary">
+
+                <div class="d-flex justify-content-center gap-5 my-3 fs-3">
+                    <i class="bi bi-google"></i>
+                    <i class="bi bi-apple"></i>
+                    <i class="bi bi-facebook"></i>
+                </div>
+
+                <p class="text-center">
+                    Need an account?
+                    <a href="#" class="text-white fw-semibold">Sign Up</a>
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <section style="height: 700px;" class="hero-section mt-3 ">
+
+
+        <div class="top-banner  d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center gap-3 ">
+                <img src="./image/scorpio.png" height="70">
+                <span>Take the Scorpio Classic for a spin to get a taste of adventure.</span>
+            </div>
+            <button class="btn btn-light rounded-pill px-4">
+                Test Drive <i class="bi bi-arrow-right ms-2"></i>
+            </button>
+        </div>
+
+
+        <div class="container h-75">
+            <div class="row h-100 align-items-center">
+
+                <div class="col-lg-5 text-white hero-content">
+                    <img src="./image/scorpio-logo.webp" class="mb-4 hero-logo">
+
+                    <p class="text-white mb-1">Ex Showroom Price</p>
+                    <h4 class="fw-bold mb-3">₹12.98L - ₹16.70L</h4>
+
+                    <p class="mb-1">GEN-2 mHawk engine Diesel</p>
+                    <p class="mb-4">97 kW (132 PS) | 300 Nm torque</p>
+
+                    <div class="d-flex gap-3">
+                        <button class="btn btn-outline-light rounded-pill px-4">
+                            <i class="bi bi-arrow-right me-2"></i>Explore All Variants
+                        </button>
+                        <button class="btn btn-outline-light rounded-pill px-4">
+                            <i class="bi bi-download me-2"></i>Download brochure
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="bg-black border-bottom border-secondary">
+        <div class="container py-3">
+
+
+
+
+            <div class="tabs-dropdown">
+                <div class="d-flex align-items-center justify-content-between">
+                    <img src="./image/scorpio-logo.webp" alt="Scorpio Logo" style="height:45px;">
+
+                    <select class="form-select bg-black text-white border-secondary w-auto">
+                        <option selected>Overview</option>
+                        <option>Key Highlights</option>
+                        <option>Gallery & Colours</option>
+                        <option>Interiors & Exteriors</option>
+                        <option>Variants & Pricing</option>
+                        <option>Finance</option>
+                        <option>Service</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <section class="py-5 bg-dark ">
+        <div class="container">
+
+            <div class="row mb-4">
+                <div class="col">
+                    <h1 class="fw-bold text-uppercase">Meet the Scorpio Classic</h1>
+                    <h3 class="fw-semibold mt-2">A Timeless Legend</h3>
+                    <p class="text-white mt-3 col-lg-8">
+                        The legendary Scorpio continues to reach new heights of dominance with a powerful
+                        mHAWK engine, premium interiors, cutting-edge technology, and an imposing new front
+                        that makes you look twice.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="row ">
+                    <div class="col mt-3">
+                        <h2 class="text-white fw-bold text-uppercase">Key Highlights</h2>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container-fluid px-0 text-center mt-4">
+                <div id="highlightCarousel" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+
+
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row g-4 mt-1">
+
+                                    <div class="col-md-3">
+                                        <div class="card bg-black text-white border-0">
+                                            <img src="https://images.financialexpressdigital.com/2024/10/Mahindra-Scorpio-N-Boss-edition.jpg"
+                                                class="card-img-top">
+                                            <div class="card-body px-0">
+                                                <h6 class="fw-bold">Fog Lamps</h6>
+                                                <p class="text-secondary small">
+                                                    Better visibility in fog.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="card bg-black text-white border-0">
+                                            <img src="https://images.drivespark.com/img/2022/08/mahindra-scorpio-classic-1016-1660917565.jpg"
+                                                class="card-img-top">
+                                            <div class="card-body px-0">
+                                                <h6 class="fw-bold">mHAWK Engine</h6>
+                                                <p class="text-secondary small">
+                                                    Powerful diesel engine.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="card bg-black text-white border-0">
+                                            <img src="https://static.india.com/wp-content/uploads/2022/08/mahindra-scorpio-informat.jpg"
+                                                class="card-img-top">
+                                            <div class="card-body px-0">
+                                                <h6 class="fw-bold">Touchscreen</h6>
+                                                <p class="text-secondary small">
+                                                    Smart infotainment system.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="card bg-black text-white border-0">
+                                            <img src="https://www.mxsmotosport.com/cdn/shop/products/MXS3668-LED-Upper-Pillar-Tail-Lights-Mahindra-Scorpio-Type-4-with-Scanning--Matrix-Mo-13.jpg?v=1702703379"
+                                                class="card-img-top">
+                                            <div class="card-body px-0">
+                                                <h6 class="fw-bold">LED Tail Lamps</h6>
+                                                <p class="text-secondary small">
+                                                    Stylish rear design.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row g-4 mt-1">
+
+                                    <div class="col-md-3">
+                                        <div class="card bg-black text-white border-0">
+                                            <img src="https://5.imimg.com/data5/IOS/Default/2023/11/360607576/YF/FC/OB/125075832/product-jpeg.png"
+                                                class="card-img-top">
+                                            <div class="card-body px-0">
+                                                <h6 class="fw-bold">Alloy Wheels</h6>
+                                                <p class="text-secondary small">
+                                                    Premium wheel design.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="card bg-black text-white border-0">
+                                            <img src="image/staring.webp" class="card-img-top">
+                                            <div class="card-body px-0">
+                                                <h6 class="fw-bold">Cruise Control</h6>
+                                                <p class="text-secondary small">
+                                                    Comfortable long drives.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="card bg-black text-white border-0">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhSTk-haxB_Ie1d7u_9FboV242yByihrJelw&s"
+                                                class="card-img-top">
+                                            <div class="card-body px-0">
+                                                <h6 class="fw-bold">ABS with EBD</h6>
+                                                <p class="text-secondary small">
+                                                    Better braking control and safety.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-md-3">
+                                        <div class="card bg-black text-white border-0">
+                                            <img src="https://indiancarguide.com/wp-content/uploads/2023/11/Mahindra-Scorpio-Classic-Interior-Airbags-jpeg.webp"
+                                                class="card-img-top">
+                                            <div class="card-body px-0">
+                                                <h6 class="fw-bold">Dual Airbags</h6>
+                                                <p class="text-secondary small">
+                                                    Extra protection for driver and passenger.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button class="carousel-control-prev custom-arrow" type="button" data-bs-target="#highlightCarousel"
+                        data-bs-slide="prev">
+                        <span class="arrow-icon">&larr;</span>
+                    </button>
+
+                    <button class="carousel-control-next custom-arrow" type="button" data-bs-target="#highlightCarousel"
+                        data-bs-slide="next">
+                        <span class="arrow-icon">&rarr;</span>
+                    </button>
+
+
+                </div>
+            </div>
+
+            <button style="height: 60px; width: 150px; font-size: 16px;"
+                class="book-btn mt-5 px-4 py-2 rounded-pill d-flex align-items-center justify-content-center font-size-5 ">
+                <span class="arrow">→</span> Book Now
+            </button>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="py-4 mt-3">
+        <div class="container">
+
+
+            <h4 class="text-uppercase text-white fw-bold mb-3">Gallery & Colours</h4>
+
+
+            <div id="galleryCarousel" class="carousel slide " data-bs-ride="false">
+
+
+                <div class="carousel-inner text-center mt-5">
+
+                    <div class="carousel-item active">
+                        <img src="https://img.republicworld.com/all_images/mahindra-unveils-scorpio-classic-boss-edition-to-boost-festive-sales-check-full-details-1729341771511-16_9.webp?impolicy=website&width=1200&height=900class="
+                            class=" sm-img img-fluid" alt="Galaxy Grey">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="https://img.autocarindia.com/mmv_images/colors/20250714125759_Mahindra_Scorpio_Classic_Stealth_Black[1].jpg"
+                            class="sm-img img-fluid" alt="Stealth Black">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="https://i.ytimg.com/vi/HMxjWyh43zU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD-cuV10K3INZmUFBhYg34axUVHFA"
+                            class="sm-img img-fluid" alt="Everest White">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="https://cdn.carhp.in/car/b1ab2007-29a6-41a8-9e87-550671a2a604.png?format=webp&width=800&q=75"
+                            class="sm-img img-fluid" alt="Molten Red">
+                    </div>
+
+                </div>
+
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
+
+                <div class="mt-5">
+
+
+                    <div class="d-flex align-items-center gap-4 mb-3 text-uppercase small">
+                        <span class="text-white">Studio</span>
+                        <span class="fw-bold text-white">Outdoor</span>
+                        <span class="text-white">Night</span>
+
+                        <div class="form-check form-switch ms-2">
+                            <input class="form-check-input" type="checkbox">
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="carousel-indicators position-static justify-content-start gap-3 mt-5 ms-0">
+
+                        <h6 class="fw-bold text-white mb-3">GALAXY GREY</h6>
+
+                        <button style="color: gray;" type="button" data-bs-target="#galleryCarousel"
+                            data-bs-slide-to="0" class="active rounded-circle color-dot grey"></button>
+
+                        <button style="color: black;" type="button" data-bs-target="#galleryCarousel"
+                            data-bs-slide-to="1" class="rounded-circle color-dot black"></button>
+
+                        <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="2"
+                            class="rounded-circle color-dot white"></button>
+
+                        <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="3"
+                            class="rounded-circle color-dot red"></button>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="bg-black text-white py-5">
+        <div class="container">
+
+            <h2 class="fw-bold mb-4">Legends Deserve A Legendary Experience</h2>
+
+
+            <ul class="nav nav-tabs border-0 mb-4">
+                <li class="nav-item">
+                    <a class="nav-link active text-white bg-transparent border-0">INTERIOR</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary bg-transparent border-0">EXTERIOR</a>
+                </li>
+            </ul>
+
+
+            <div id="featureCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+
+                            <div class="col-md-3">
+                                <img src="https://auto.mahindra.com/on/demandware.static/-/Sites-amc-Library/default/dwf97d354c/SCRC/interior/new/mobile/6-Speed-Cable-Shift-Transmission.png"
+                                    class="img-fluid mb-3">
+                                <h6>6-Speed Cable Shift Transmission</h6>
+                                <p class="small text-secondary">
+                                    Shift gears with precision and conquer the road
+                                </p>
+                            </div>
+
+                            <div class="col-md-3">
+                                <img src="https://auto.mahindra.com/on/demandware.static/-/Sites-amc-Library/default/dw424f11df/SCRC/interior/new/mobile/Dual-Front-Airbags.png"
+                                    class="img-fluid mb-3">
+                                <h6>Dual Front Airbags</h6>
+                                <p class="small text-secondary">
+                                    When it comes to safety nothing else will do
+                                </p>
+                            </div>
+
+                            <div class="col-md-3">
+                                <img src="https://auto.mahindra.com/on/demandware.static/-/Sites-amc-Library/default/dw59ed1067/SCRC/interior/new/mobile/Hydraulic-Power-Steering-copy.png"
+                                    class="img-fluid mb-3">
+                                <h6>Hydraulic Power Steering</h6>
+                                <p class="small text-secondary">
+                                    Power through every twist and turn
+                                </p>
+                            </div>
+
+                            <div class="col-md-3">
+                                <img src="https://auto.mahindra.com/on/demandware.static/-/Sites-amc-Library/default/dw389823d5/SCRC/interior/new/mobile/2nd-Row-AC-vents.png"
+                                    class="img-fluid mb-3">
+                                <h6>2nd Row AC Vents</h6>
+                                <p class="small text-secondary">
+                                    Always keep discomfort out
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <div class="row g-4">
+
+                            <div class="col-md-3">
+                                <img src="https://auto.mahindra.com/on/demandware.static/-/Sites-amc-Library/default/dw5f1caa1b/SCRC/interior/new/mobile/Seat-Upholstery.png"
+                                    class="img-fluid mb-3">
+                                <h6>Seat Upholstery</h6>
+                                <p class="small text-secondary">
+                                    Comfort is never in question with the all-new fabric of the dual-tone black and
+                                    beige interior theme
+                                    Faux Leather Wrapped Steering
+                                </p>
+                            </div>
+
+                            <div class="col-md-3">
+                                <img src="https://auto.mahindra.com/on/demandware.static/-/Sites-amc-Library/default/dwdfc5eaf0/SCRC/interior/new/mobile/Sunglass-Holder.png"
+                                    class="img-fluid mb-3">
+                                <h6>Sunglass Holder</h6>
+                                <p class="small text-secondary">
+                                    Extra space for those who command attention
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#featureCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#featureCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="variants-section text-white py-5">
+        <div class="container-fluid px-5">
+
+
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="fw-bold">VARIANTS & PRICING</h2>
+                <button class="btn btn-outline-light rounded-pill px-4">
+                    Accessories Brochure
+                </button>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <p class="text-uppercase small text-secondary">Fuel</p>
+                    <div class="mb-4">
+                        <span class="filter active" data-group="fuel" data-value="all">ALL ✓</span>
+                        <span class="filter" data-group="fuel" data-value="diesel">DIESEL</span>
+                    </div>
+
+                    <p class="text-uppercase small text-secondary">Transmission</p>
+                    <div class="mb-4">
+                        <span class="filter active">ALL ✓</span>
+                        <span class="filter">MANUAL</span>
+                    </div>
+
+                    <p class="text-uppercase small text-secondary">Seater</p>
+                    <div class="mb-5">
+                        <span class="filter active">ALL ✓</span>
+                        <span class="filter">7CC</span>
+                        <span class="filter">7SF</span>
+                    </div>
+
+                    <img style="height: 350px;"
+                        src="https://auto.mahindra.com/on/demandware.static/-/Sites-mahindra-product-catalog/default/dwa7e6b162/images/SCRC/m_hires/S11_StealthBlack_360x266.png"
+                        class="img-fluid mt-4" alt="car">
+
+                </div>
+
+
+                <div class="col-lg-8">
+
+
+                    <div class="variant-card mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h4>CLASSIC S11 DIESEL</h4>
+                            <div>
+                                <input type="checkbox"> Compare
+                            </div>
+                        </div>
+
+                        <h5 class="fw-bold">₹ 16,70,500*</h5>
+                        <p class="small text-secondary">Ex-showroom price</p>
+
+                        <div class="row text-center my-4">
+                            <div class="col">DIESEL<br><small>Fuel</small></div>
+                            <div class="col">MANUAL<br><small>Transmission</small></div>
+                            <div class="col">7CC<br><small>Seater</small></div>
+                        </div>
+
+                        <div class="d-flex align-items-center mb-3">
+                            <span class="color black"></span>
+                            <span class="color grey"></span>
+                            <span class="color white"></span>
+                            <span class="color red"></span>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="#" class="text-white text-decoration-underline">View all specifications</a>
+                            <button class="btn btn-outline-light rounded-pill px-4">Book Now →</button>
+                        </div>
+                    </div>
+
+
+                    <div class="variant-card">
+                        <div class="d-flex justify-content-between">
+                            <h4>CLASSIC S11 DIESEL</h4>
+                            <div>
+                                <input type="checkbox"> Compare
+                            </div>
+                        </div>
+
+                        <h5 class="fw-bold">₹ 16,70,500*</h5>
+                        <p class="small text-secondary">Ex-showroom price</p>
+
+                        <div class="row text-center my-4">
+                            <div class="col">DIESEL<br><small>Fuel</small></div>
+                            <div class="col">MANUAL<br><small>Transmission</small></div>
+                            <div class="col">7SF<br><small>Seater</small></div>
+                        </div>
+
+                        <div class="d-flex align-items-center mb-3">
+                            <span class="color black"></span>
+                            <span class="color grey"></span>
+                            <span class="color white"></span>
+                            <span class="color red"></span>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="#" class="text-white text-decoration-underline">View all specifications</a>
+                            <button class="btn btn-outline-light rounded-pill px-4">Book Now →</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="finance-wrapper py-5">
+        <div class="container">
+            <div class="finance-card position-relative text-white">
+
+                <div class="rupee-box">₹</div>
+
+                <small class="text-uppercase opacity-75">Finance</small>
+
+                <h1 class="fw-bold mt-2">
+                    Good deals. Best financiers.
+                </h1>
+
+                <p class="mt-3 mb-4 opacity-75">
+                    Get easy finance options personalized to your needs.
+                </p>
+
+
+                <div class="row text-center text-md-start mb-4">
+                    <div class="col-md-3 col-6 mb-3">
+                        <h5 class="fw-bold">3.5L+</h5>
+                        <small>Happy Customers</small>
+                    </div>
+                    <div class="col-md-3 col-6 mb-3">
+                        <h5 class="fw-bold">8+</h5>
+                        <small>Finance Partners</small>
+                    </div>
+                    <div class="col-md-3 col-6 mb-3">
+                        <h5 class="fw-bold">8.99%</h5>
+                        <small>Starting Interest Rate</small>
+                    </div>
+                    <div class="col-md-3 col-6 mb-3">
+                        <h5 class="fw-bold">&lt;10 Min</h5>
+                        <small>Application Process</small>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-wrap gap-3">
+                    <button class="btn btn-outline-light rounded-pill px-4">
+                        → Calculate EMI
+                    </button>
+                    <a href="#" class="text-white align-self-center">Explore</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="service-section py-5">
+        <div class="container text-white text-center">
+
+            <h4 class="fw-bold mb-4">SERVICE HIGHLIGHTS</h4>
+
+            <div class="row mb-4">
+                <div class="col-md-4 d-flex align-items-center gap-3 mb-3">
+                    <div class="icon-box"><i class="bi bi-signpost-2"></i></div>
+                    <span>Roadside Assistance</span>
+                </div>
+
+                <div class="col-md-4 d-flex align-items-center gap-3 mb-3">
+                    <div class="icon-box"><i class="bi bi-shield-check"></i></div>
+                    <span>Extended Warranty</span>
+                </div>
+
+                <div class="col-md-4 d-flex align-items-center gap-3 mb-3">
+                    <div class="icon-box"><i class="bi bi-car-front"></i></div>
+                    <span>Pick and drop service</span>
+                </div>
+            </div>
+
+            <p class="opacity-75 mb-4">
+                Estimate your potential service cost
+            </p>
+
+            <button class="btn btn-outline-light rounded-pill px-4">
+                → Use Service Calculator
+            </button>
+
+        </div>
+    </section>
+
+    <hr class="divider">
+
+
+    <section class="press-section py-5">
+        <div class="container text-white text-center">
+
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h4 class="fw-bold">PRESS RELEASE</h4>
+                <i class="bi bi-share fs-5"></i>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-4 mb-4">
+                    <div class="press-card">
+                        <img src="https://auto.mahindra.com/on/demandware.static/-/Sites-amc-Library/default/dwead97db8/SCRC/press-release/pr1.png"
+                            class="img-fluid mb-3">
+                        <h6>
+                            Scorpio Classic prices announced – starting ₹11.99 lakh
+                        </h6>
+                        <small class="opacity-75">19 October 2022</small>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 mb-4">
+                    <div class="press-card">
+                        <img src="https://auto.mahindra.com/on/demandware.static/-/Sites-amc-Library/default/dw58f3be41/SCRC/press-release/pr2.png"
+                            class="img-fluid mb-3">
+                        <h6>
+                            Mahindra launches the Scorpio Classic – the new avatar of its legendary SUV
+                        </h6>
+                        <small class="opacity-75">12 October 2022</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="faq-section py-5 bg-black text-white">
+        <div class="container">
+
+            <h2 class="fw-bold mb-4">FAQs</h2>
+
+            <div class="accordion accordion-flush" id="faqAccordion">
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            What makes the Mahindra Scorpio Classic stand out in the SUV market?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            The Scorpio Classic stands out with its rugged design, powerful diesel engine,
+                            body-on-frame construction, and legendary road presence.
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            What variants is the Mahindra Scorpio Classic available in?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Mahindra Scorpio Classic is available in S and S11 variants with multiple seating
+                            configurations.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq3">
+                            What is the current waiting period for Mahindra Scorpio Classic?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Waiting period may vary by city and variant. Please contact your nearest dealer
+                            for accurate timelines.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq4">
+                            What are the key features available in the Mahindra Scorpio Classic?
+                        </button>
+                    </h2>
+                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Key features include a touchscreen infotainment system, dual airbags,
+                            cruise control, and premium interiors.
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq5">
+                            What type of infotainment system is available in the Mahindra Scorpio Classic?
+                        </button>
+                    </h2>
+                    <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            It comes with a touchscreen infotainment system supporting Bluetooth, USB,
+                            and smartphone connectivity.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq6">
+                            What safety features are available in Mahindra Scorpio Classic?
+                        </button>
+                    </h2>
+                    <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Safety features include dual airbags, ABS with EBD, rear parking sensors,
+                            and ISOFIX child seat mounts.
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq7">
+                            Where can I service my Mahindra Scorpio Classic? What are the service highlights?
+                        </button>
+                    </h2>
+                    <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            You can service your Scorpio Classic at authorized Mahindra service centers.
+                            Highlights include roadside assistance, extended warranty, and pick-up & drop.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="additional-links-section py-5 bg-black text-white">
+        <div class="container">
+
+            <h5 class="fw-bold mb-4">ADDITIONAL LINKS</h5>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <a href="#" class="link-box d-flex justify-content-between align-items-center">
+                        <span>Locate Dealer</span>
+                        <span class="external-icon">↗</span>
+                    </a>
+                </div>
+
+                <div class="col-md-6">
+                    <a href="#" class="link-box d-flex justify-content-between align-items-center">
+                        <span>Explore SUVs</span>
+                        <span class="external-icon">↗</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="feedback-section py-5 bg-black text-white">
+        <div class="container">
+
+            <div class="feedback-box d-flex flex-wrap align-items-center justify-content-between gap-3">
+                <div class="d-flex align-items-center gap-3">
+                    <span class="chat-icon">💬</span>
+                    <span>Was this information helpful?</span>
+                </div>
+
+                <div class="d-flex gap-3">
+                    <button class="btn btn-outline-light rounded-pill px-4">Yes</button>
+                    <button class="btn btn-outline-light rounded-pill px-4">No</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer class="footer-section text-white">
+        <div class="container py-5">
+
+          
+            <div class="row align-items-center mb-4">
+                <div class="col-md-6">
+                    <img src="./image/scorpio-logo.webp" alt="Mahindra" height="40">
+                    <p class="mt-3 mb-2">For any assistance call us on</p>
+                    <a href="tel:18002096006" class="help-number">
+                        📞 1800 209 6006
+                    </a>
+                </div>
+
+                <div class="col-md-6 text-md-end mt-4 mt-md-0">
+                    <p class="mb-2">Social links</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="footer-divider">
+
+           
+            <div class="row mt-4">
+
+                <div class="col-md-2 col-6 mb-4">
+                    <h6>SUVS</h6>
+                    <ul>
+                        <li>Explore All SUVs</li>
+                        <li>XUV 7XO</li>
+                        <li>XUV 3XO EV</li>
+                        <li>Thar Roxx</li>
+                        <li>Scorpio-N</li>
+                        <li>XUV700</li>
+                        <li>Scorpio Classic</li>
+                        <li>Bolero</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 col-6 mb-4">
+                    <h6>PIK-UPS</h6>
+                    <ul>
+                        <li>Veero</li>
+                        <li>Maxx City</li>
+                        <li>Maxx HD</li>
+                        <li>Bolero Pik-up</li>
+                        <li>Bolero Camper</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 col-6 mb-4">
+                    <h6>ABOUT</h6>
+                    <ul>
+                        <li>About us</li>
+                        <li>Media kit</li>
+                        <li>Careers</li>
+                        <li>QMS Certificate</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 col-6 mb-4">
+                    <h6>OWNER</h6>
+                    <ul>
+                        <li>Service</li>
+                        <li>Adventure</li>
+                        <li>Self-Service & Maintenance</li>
+                        <li>Owner’s manual</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 col-6 mb-4">
+                    <h6>CUSTOMER SERVICE</h6>
+                    <ul>
+                        <li>Contact us</li>
+                        <li>FAQs</li>
+                        <li>Dealer Locator</li>
+                        <li>Corporate Sales Enquiry</li>
+                        <li>Sitemap</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 col-6 mb-4">
+                    <h6>QUICK LINKS</h6>
+                    <ul>
+                        <li>Test Drive</li>
+                        <li>Book Online</li>
+                        <li>Exchange</li>
+                        <li>Finance</li>
+                        <li>Scrappage</li>
+                        <li>Subscribe a vehicle</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        
+        <div class="footer-bottom">
+            <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
+
+                <div class="app-box">
+                    <span>Download the M4U app now!</span>
+                    <img src="https://emedia1.nhs.wales/PublicHealthWales/cache/file/FC512634-863E-4C31-B52AFA683F6BAFFD.png" height="35">
+                    <img src="https://e7.pngegg.com/pngimages/838/154/png-clipart-app-store-mobile-app-itunes-ios-apple-text-label-thumbnail.png" height="35">
+                </div>
+
+                <div class="whatsapp-box">
+                    <span>Let’s connect on Whatsapp</span>
+                    <button class="btn btn-outline-light rounded-pill">Chat now →</button>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
